@@ -1,23 +1,26 @@
 *{
   box-sizing: border-box;
     padding: 0;
-   /* margin: 0;*/
-
+   margin-top: 0;
+   border-top: 20px;
 
 }
 
 header{
  background-color: rgb(6, 154, 218);
  background-image: url(img/pattern.png);
- background-size: 18%;
+ background-size: 25%;
+ /*padding-top: 0;*/
 
 }
 #titolo{
     margin-bottom: 0;
+    font-size: 80px;
 }
 
 #Dominio {
  width: 20%;
+ border-top: 4px;
 }
 
 .grigio{
@@ -27,7 +30,7 @@ header{
     color: cornflowerblue;
 }
 #lista_lorem{
-    padding-left: 20px;
+    padding-left: 15px;
 }
 
 table{
@@ -57,4 +60,22 @@ table{
 
 mark{
     background-color: yellow;
+}
+body{
+    font-weight: bolder;
+}
+
+.bianco , .sx1 , .sx2 , .sx3
+{
+ color: white;
+}
+#monitor{
+    background-image: url(img/monitor.jpg);
+    width: 310px;
+    height: 208px;
+}
+#graph{
+    background-image: url(img/graph.jpg);
+    width: 310px;
+    height: 208px;
 }
