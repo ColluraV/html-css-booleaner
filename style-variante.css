@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+    padding: 0;
+   margin-top: 0;
+   border-top: 20px;
+ 
+
+}
+
+header{
+ background-color: rgb(6, 154, 218);
+ background-image: url(img/pattern.png);
+ background-size: 25%;
+
+
+}
+
+#titolo{
+    margin-bottom: 0;
+    font-size: 60px;
+}
+
+#Dominio {
+ width: 20%;
+ border-top: 4px;
+}
+
+#didascalia{
+    font-size: 8px;
+}
+
+.grigio{
+    color: grey;
+}
+.azzurro{
+    color: cornflowerblue;
+}
+#lista_lorem{
+    padding-left: 15px;
+}
+
+table{
+    text-align: center;
+    width: 100%;
+    border-spacing: 0;
+    table-layout: auto;
+}
+
+.linea_1{
+    background-color: rgb(61, 159, 251);
+}
+.linea_2{
+    background-color: rgb(139, 219, 254);
+}
+.linea_3{
+    background-color: white;
+}
+.linea_4{
+    background-color: rgb(139, 219, 254);
+}
+
+.sx1{ width: 25%;
+}
+.sx2{ width: 25%;
+}
+
+mark{
+    background-color: yellow;
+}
+body{
+    font-weight: bolder;
+}
+
+.bianco , .sx1 , .sx2 , .sx3
+{
+ color: white;
+}
+#monitor{
+    background-image: url(img/monitor.jpg);
+    width: 310px;
+    height: 208px;
+}
+#graph{
+    background-image: url(img/graph.jpg);
+    width: 310px;
+    height: 208px;
+}
+.contenitore{
+    padding-left: 80px;
+    padding-right: 80px;
+}
