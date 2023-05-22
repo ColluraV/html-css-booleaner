@@ -54,3 +54,7 @@ table{
 }
 .sx2{ width: 25%;
 }
+
+mark{
+    background-color: yellow;
+}
